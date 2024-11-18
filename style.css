@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: #8489a1;
+    font-size: 72px;
+}
+
+#gameBoard {
+    height: 540px;
+    width: 630px;
+
+    background-color: #d2d5e6;
+    border: 10px solid #a5aabf;
+    border-radius: 5%;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#restartButton {
+    height: 70px;
+    width: 270px;
+
+    background-color: #d2d5e6;
+    border: 5px solid #a5aabf;
+    border-radius: 40px;
+
+    font-size: 36px;
+    color: #8489a1;
+}
+
+#status {
+    font-size: 48px;
+    color: #8489a1;
+}
+
+.pink {
+    color: #d950c2;
+}
+
+.green {
+    color: #b9cd37;
+}
+
+.tile {
+    height: 70px;
+    width: 70px;
+    margin: 5px;
+
+    background-color: white;
+    border: 5px solid #a5aabf;
+    border-radius: 50%;
+}
+
+.player-1 {
+    background-color: #d950c2;
+}
+
+.player-2 {
+    background-color: #b9cd37;
+}
+
+.winner {
+    border-color: #ffff03;
+}
